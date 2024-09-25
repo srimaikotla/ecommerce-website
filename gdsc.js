@@ -100,7 +100,7 @@ function updateCartDisplay() {
    cart.forEach(item => {
        totalPrice += item.price * item.quantity;
        let itemDiv = createProductDisplay(item);
-       itemDiv.className = 'products'; // Apply the same class for styling
+       itemDiv.className = 'products';
 
        let quantityText = document.createElement('p');
        quantityText.textContent = 'Quantity: ' + item.quantity;
