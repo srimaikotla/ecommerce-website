@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./gdsc.css">
+    <script src="./gdsc.js"></script>
+</head>
+<body>
+    <h1>E-Commerce Platform</h1>
+    <div class="container">
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="img">
+                <h3>Fjallraven - Foldsack No. 1 Backpack</h3>
+                <p>$109.95</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="img">
+                <h3>Mens Casual Premium Slim Fit T-Shirts</h3>
+                <p>$22.30</p>
+                <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="img">
+            <h3>Mens Cotton Jacket</h3>
+            <p>$55.99</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="img">
+            <h3>Mens Casual Slim Fit</h3>
+            <p>$15.99</p>
+            <button onclick="addToCart(4)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" >
+            <h3>John Hardy Women's Legends Naga Bracelet</h3>
+            <p>$695.00</p>
+            <button onclick="addToCart(5)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" >
+                <h3>Solid Gold Petite Micropave</h3>
+                <p>$168</p>
+                <button onclick="addToCart(6)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg">
+                <h3>White Gold Plated Princess</h3>
+                <p>$9.99</p>
+                <button onclick="addToCart(7)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg" alt="img">
+            <h3>Pierced Owl Rose Gold Plated Stainless Steel Double</h3>
+            <p>$10.99</p>
+            <button onclick="addToCart(8)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg">
+            <h3>WD 2TB Elements Portable External Hard Drive - USB 3.0</h3>
+            <p>$64</p>
+            <button onclick="addToCart(9)">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg">
+            <h3>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</h3>
+            <p>$109</p>
+            <button onclick="addToCart(10)">Add to Cart</button>
+        </div>
+    </div>
+    <div id="cart" class="cart">
+        <h2>Cart</h2>
+        <div id="cart-items" class="cart-items"></div>
+        <p>Total: $<span id="total-price">0.00</span></p>
+    </div>
+</body>
+</html>
